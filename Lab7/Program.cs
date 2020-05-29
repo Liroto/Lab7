@@ -37,14 +37,14 @@ namespace laba7
             String file = string.Empty;
                 foreach (int number in arrarevers)
                 {
-                    file += (number + "\n");
+                    file += number + ",";
                 }
             FileExpert.SaveToRelativePath(path, file);
 
             String file1 = string.Empty;
             foreach (int number in array)
                 {
-                    file1 += (number + "\n");
+                    file1 += (number + ",");
                 }
             FileExpert.SaveToRelativePath(path1, file1);
 
